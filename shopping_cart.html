@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="">
+	<meta name="keywords" content="">	
+    <meta name="description" content="">
+    <title>Writeway | Home</title>
+	<link rel="shortcut icon" sizes="64x64" href="img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header__top">
+			<div class="container">
+				<div class="row">
+					<div class="logo text-center col-lg-9 col-md-8">
+						<div class="header__logo">
+							<a href="index.html">
+								<img src="img/logo.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+					<div class="header__icons col-lg-3 col-md-4">
+						<div class="header__top__icons d-flex align-content-center justify-content-end">
+							<div class="header__icon header--cart">
+								<div class="cart__icon d-flex align-content-center">
+									<img src="img/shopping-cart.svg" class="in__svg" alt="Cart">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--whistlist">
+								<div class="whistlist__icon d-flex align-content-center">
+									<img src="img/heart.svg" class="in__svg" alt="Whistlist">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--user">
+								<div class="header__search__icon d-flex align-content-center" id="user__dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="img/user.svg" class="in__svg" alt="User">
+									<span>Login</span>
+								</div>
+								<div class="dropdown-menu" aria-labelledby="user__dropdown">
+									<a class="dropdown-item" href="#">Profile</a>
+									<a class="dropdown-item" href="#">Order History</a>
+									<a class="dropdown-item" href="#">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__main">
+			<div class="container">
+				<div class="row">
+					<div class="main__menu col-lg-12">
+						<div class="mobile_menu">
+                            <span class="mobile_menu-icon"></span>
+                        </div>
+						<div class="header__menu">
+							<ul class="nav navbar p-0">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Brands</a>
+								</li>
+								<li class="nav-item">
+							    	<a class="nav-link" href="category.html">Writing</a>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">Accessories</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Personalised gifts</a>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">New and popular</a>
+							  	</li>
+							  	<li class="nav-item has__child">
+									<a class="nav-link" href="#">Sale</a>
+									<a href="javascript:void(0)" class="submenu__expant">
+                                        <img src="img/plus.svg" class="in__svg plus" alt="Plus">
+                                        <img src="img/minus.svg" class="in__svg minus" alt="Minus">
+                                    </a>
+							    	<div class="header__submenu">
+							    		<ul>
+							    			<li class="nav-item">
+										    	<a class="nav-link" href="#">one</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" href="#">two</a>
+										  	</li>
+							    		</ul>
+							    	</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Blog</a>
+							  	</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>  
+    <main>
+		<div class="notification-wrapper">
+            <div class="container">
+                <div class="notification-container">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">Product added in cart successfully.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<section class="breadcum--block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcum__main">
+                            <ul class="d-flex align-items-center">
+                                <li><a href="#">Home</a> </li>
+                                <li>&nbsp; > &nbsp;</li>
+                                <li>Shopping cart</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shopping__cart--block">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Shopping Cart</h2>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="shopping__cart__list" data-aos="fade-up">
+                            <div class="shopping__cart__total" data-aos="fade-up">
+                                <p class="total__item">Total (2 Items) : ₹41,443</p>
+                            </div>
+                            <div class="shopping__cart__item" data-aos="fade-up">
+                                <div class="product__img">
+                                    <a href="#"><img src="img/product-1.jpg" alt="Product"></a>
+                                </div>
+                                <div class="product__des">
+                                    <div class="title__header">
+                                        <h4 class="product__name">Fiona Diamond Necklace </h4>
+                                        <p class="cart__sku">UR00065-PT0000</p>
+                                        <div class="cart__update__options d-flex align-items-center">
+                                            <div class="product__size">
+                                                <label for="">Size : 18</label>
+                                            </div>
+                                            <div class="product__size">
+                                                <label for="">Quantity : 3</label>
+                                            </div>
+                                        </div>
+                                        <p class="cart__inventory"> Last 2 pieces left! </p>
+                                    </div>
+                                    <div class="details__footer">
+                                        <p class="delivery__details">Expected Delivery - 22nd to 23rd Oct</p>
+                                        <h5 class="product__price">₹20,214<span class="offer">₹22,459</span><span class="discountprice">Save ₹2,245</span></h5>
+                                    </div>
+                                </div>
+                                <div class="product__actions">
+                                    <div class="product__actions__list">
+                                        <a href="#" class="btn__outline btn__remove">Remove</a>
+                                        <a href="#" class="btn__outline btn__move">Move to Wishlist</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopping__cart__item" data-aos="fade-up">
+                                <div class="product__img">
+                                    <a href="#"><img src="img/logo.png" alt="Product"></a>
+                                </div>
+                                <div class="product__des">
+                                    <div class="title__header">
+                                        <h4 class="product__name">Fiona Diamond Necklace </h4>
+                                        <p class="cart__sku">UR00065-PT0000</p>
+                                        <div class="cart__update__options d-flex align-items-center">
+                                            <div class="product__size">
+                                                <label for="">Size : 15</label>
+                                            </div>
+                                            <div class="product__size">
+                                                <label for="">Quantity : 2</label>
+                                            </div>
+                                        </div>
+                                        <p class="cart__inventory"> Last 2 pieces left! </p>
+                                    </div>
+                                    <div class="details__footer">
+                                        <p class="delivery__details">Expected Delivery - 22nd to 23rd Oct</p>
+                                        <h5 class="product__price">₹20,214<span class="offer">₹22,459</span><span class="discountprice">Save ₹2,245</span></h5>
+                                    </div>
+                                </div>
+                                <div class="product__actions">
+                                    <div class="product__actions__list">
+                                        <a href="#" class="btn__outline btn__remove">Remove</a>
+                                        <a href="#" class="btn__outline btn__move">Move to Wishlist</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopping__cart__item" data-aos="fade-up">
+                                <div class="product__img">
+                                    <a href="#"><img src="img/product-2.jpg" alt="Product"></a>
+                                </div>
+                                <div class="product__des">
+                                    <div class="title__header">
+                                        <h4 class="product__name">Fiona Diamond Necklace </h4>
+                                        <p class="cart__sku">UR00065-PT0000</p>
+                                        <div class="cart__update__options d-flex align-items-center">
+                                            <div class="product__size">
+                                                <label for="">Size :</label>
+                                                <select class="product__size__option">
+                                                    <option selected>18</option>
+                                                    <option value="1">15</option>
+                                                    <option value="2">16</option>
+                                                    <option value="3">17</option>
+                                                </select>
+                                            </div>
+                                            <div class="product__size">
+                                                <label for="">Quantity :</label>
+                                                <select class="product__size__option">
+                                                    <option selected>1</option>
+                                                    <option value="1">2</option>
+                                                    <option value="2">3</option>
+                                                    <option value="3">4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="cart__inventory"> Last 2 pieces left! </p>
+                                    </div>
+                                    <div class="details__footer">
+                                        <p class="delivery__details">Expected Delivery - 22nd to 23rd Oct</p>
+                                        <h5 class="product__price">₹20,214<span class="offer">₹22,459</span><span class="discountprice">Save ₹2,245</span></h5>
+                                    </div>
+                                </div>
+                                <div class="product__actions">
+                                    <div class="product__actions__list">
+                                        <a href="#" class="btn__outline btn__remove">Remove</a>
+                                        <a href="#" class="btn__outline btn__move">Move to Wishlist</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="order__summary__main">
+                            <h4 data-aos="fade-up">Order Summary</h4>
+                            <div class="order__summary" data-aos="fade-up">
+                                <p class="subtotal">Subtotal <span class="price-values">₹66,082</span></p>
+                                <p class="discount">You Saved <span class="price-values">- ₹3,363</span></p>
+								<p class="discount">Coupon Discount <span class="price-values"><a class="coupon_discount">Apply Coupon <i class="fa fa-trash-o" aria-hidden="true"></i></a></span></p>
+								<p class="shipping__charge">Delivery Charge (Standard) <span class="price-values"><span class="free">FREE</span></span></p>
+                                <p class="price--breakup--final mb-0">TOTAL COST <span class="price-values">₹62,719</span></p>
+                            </div>
+							<div class="apply__coupon position-relative mb-4">
+								<input type="text" class="form-control" placeholder="Apply Coupon">
+								<a href="#" class="btn effect--btn position-absolute">Apply</a>
+							</div>
+                            <div class="checkout__button" data-aos="fade-up">
+                                <a href="#" class="btn checkout__btn effect--btn"><i class="fa fa-lock" aria-hidden="true"></i> Checkout Securely</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+	<footer class="footer--block" data-aos="fade-up">
+		<div class="footer__main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="footer__logo">
+							<a href="#">
+								<img src="img/logo.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Global Distributors</h4>
+						<address>410. 4th floor, Sunrise Mall, Mansi Circle, Ahmedabad Pin Code: 380015</address>
+						<div class="payment__method">
+							<h5>Payment Method</h5>
+							<ul class="d-flex align-content-center">
+								<li>
+									<img src="img/visa.png" alt="VISA">
+								</li>
+								<li>
+									<img src="img/maestro.png" alt="Maestro">
+								</li>
+								<li>
+									<img src="img/mastercard.png" alt="Mastercard">
+								</li>
+								<li>
+									<img src="img/discover.png" alt="Discover">
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Quick links</h4>
+						<ul>
+							<li>
+								<a href="#">Brands</a>
+							</li>
+							<li>
+								<a href="#">Writing</a>
+							</li>
+							<li>
+								<a href="#">Accessories</a>
+							</li>
+							<li>
+								<a href="#">Personalised gifts</a>
+							</li>
+							<li>
+								<a href="#">New and popular</a>
+							</li>
+							<li>
+								<a href="#">Sale</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Help & FAQ</h4>
+						<ul>
+							<li>
+								<a href="#">Privacy Policy</a>
+							</li>
+							<li>
+								<a href="#">Shipping Policy</a>
+							</li>
+							<li>
+								<a href="#">Return Policy</a>
+							</li>
+							<li>
+								<a href="#">Terms of Service</a>
+							</li>
+							<li>
+								<a href="#">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Follow us</h4>
+						<ul class="social__icons d-flex align-content-center">
+							<li>
+								<a href="#">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-youtube-play" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright__main">
+			<div class="container">
+				<div class="copyright">
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="text-center mb-0">© 2021 Writeway Terms & Conditions privacy Notice Website Terms</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="bottom__top__top">
+		<img src="img/pen.svg" class="in__svg" alt="">
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

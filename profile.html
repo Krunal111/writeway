@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="">
+	<meta name="keywords" content="">	
+    <meta name="description" content="">
+    <title>Writeway | Brands</title>
+	<link rel="shortcut icon" sizes="64x64" href="img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header__top">
+			<div class="container">
+				<div class="row">
+					<div class="logo text-center col-lg-9 col-md-8">
+						<div class="header__logo">
+							<a href="index.html">
+								<img src="img/logo.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+					<div class="header__icons col-lg-3 col-md-4">
+						<div class="header__top__icons d-flex align-content-center justify-content-end">
+							<div class="header__icon header--cart">
+								<div class="cart__icon d-flex align-content-center">
+									<img src="img/shopping-cart.svg" class="in__svg" alt="Cart">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--whistlist">
+								<div class="whistlist__icon d-flex align-content-center">
+									<img src="img/heart.svg" class="in__svg" alt="Whistlist">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--user">
+								<div class="header__search__icon d-flex align-content-center" id="user__dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="img/user.svg" class="in__svg" alt="User">
+									<span>Login</span>
+								</div>
+								<div class="dropdown-menu" aria-labelledby="user__dropdown">
+									<a class="dropdown-item" href="#">Profile</a>
+									<a class="dropdown-item" href="#">Order History</a>
+									<a class="dropdown-item" href="#">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__main">
+			<div class="container">
+				<div class="row">
+					<div class="main__menu col-lg-12">
+						<div class="mobile_menu">
+                            <span class="mobile_menu-icon"></span>
+                        </div>
+						<div class="header__menu">
+							<ul class="nav navbar p-0">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Brands</a>
+								</li>
+								<li class="nav-item">
+							    	<a class="nav-link" href="category.html">Writing</a>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">Accessories</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Personalised gifts</a>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">New and popular</a>
+							  	</li>
+							  	<li class="nav-item has__child">
+									<a class="nav-link" href="#">Sale</a>
+									<a href="javascript:void(0)" class="submenu__expant">
+                                        <img src="img/plus.svg" class="in__svg plus" alt="Plus">
+                                        <img src="img/minus.svg" class="in__svg minus" alt="Minus">
+                                    </a>
+							    	<div class="header__submenu">
+							    		<ul>
+							    			<li class="nav-item">
+										    	<a class="nav-link" href="#">one</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" href="#">two</a>
+										  	</li>
+							    		</ul>
+							    	</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Blog</a>
+							  	</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>    	
+	<main>
+		<section class="profile--block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="profile__main">
+                            <ul class="nav nav-tabs" id="myProfileTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="editprofile-tab" data-toggle="tab" href="#editprofile" role="tab" aria-controls="editprofile" aria-selected="false">Edit Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="cpassword-tab" data-toggle="tab" href="#cpassword" role="tab" aria-controls="cpassword" aria-selected="false">Change Password</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="order-tab" data-toggle="tab" href="#order" role="tab" aria-controls="order" aria-selected="false">My Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="order__tracking-tab" data-toggle="tab" href="#order__tracking" role="tab" aria-controls="order" aria-selected="false">Order Tracking</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myProfileContent">
+                                <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                	<div class="tab__content__inner d-flex align-content-center">
+	                                	<div class="user__image d-flex align-content-center">
+	                                		<img src="img/logo.png" alt="user">
+	                                	</div>
+	                                	<div class="users__info">
+	                                		<h3>Admin Admin</h3>
+	                                		<p>Email: <b>admin@gmail.com</b></p>
+	                                		<p>Mobile: <b>0987654321</b></p>
+	                                	</div>
+	                                	<div class="address__box">
+	                                		<h6>Address:</h6>
+	                                		<p>Abs street 123, </br> 12233, xyzxa, </br>India</p>
+	                                	</div>
+	                                </div>
+                                </div>
+                                <div class="tab-pane fade" id="editprofile" role="tabpanel" aria-labelledby="editprofile-tab">
+                                	<form action="" class="login__form" method="post" >
+	                                    <div class="row">
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">First Name</label>
+	                                            <input class="form-control" required="" name="fname" type="text" placeholder="First Name">
+	                                        </div>
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">Last Name</label>
+	                                            <input class="form-control" required="" name="lname" type="text" placeholder="Last Name">
+	                                        </div>
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">Enter Email</label>
+	                                            <input class="form-control" required="" name="email" type="text" placeholder="Email">
+	                                        </div>
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">Enter Mobile</label>
+	                                            <input class="form-control" required="" name="mobile" type="text" placeholder="Mobile">
+	                                        </div>
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">Profile Image</label>
+	                                            <input class="form-control" required="" name="profile" type="file">
+	                                        </div>
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">City</label>
+	                                            <select class="form-control">
+	                                            	<option>Mumbai</option>
+	                                            	<option>Surat</option>
+	                                            </select>
+	                                        </div>
+	                                        <div class="form-group col-md-12">
+	                                            <label for="">Address</label>
+	                                            <textarea class="form-control" required="" name="address" placeholder="Address"></textarea>
+	                                        </div>
+	                                        <div class="form-group col-md-12 mb-0">
+	                                            <button class="btn effect--btn blue--btn">Submit</button>
+	                                        </div>
+	                                    </div>
+	                                 </form>
+                                </div>
+                                <div class="tab-pane fade" id="cpassword" role="tabpanel" aria-labelledby="cpassword-tab">
+                                	<form action="" class="login__form" method="post" >
+	                                    <div class="row">
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">Old Password</label>
+	                                            <input type="password" name="password" value="" class="form-control" placeholder="Password">
+	                                        </div>
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">New Password</label>
+	                                            <input type="password" name="password" value="" class="form-control" placeholder="Password">
+	                                        </div>
+	                                        <div class="form-group col-md-4 col-md-6">
+	                                            <label for="">New Confirm Password</label>
+	                                            <input type="password" name="cpassword" value="" class="form-control" placeholder="Confirm Password">
+	                                        </div>
+	                                        <div class="form-group col-md-12 mb-0">
+	                                            <button class="btn effect--btn blue--btn">Submit</button>
+	                                        </div>
+	                                    </div>
+	                                 </form>
+                                </div>
+                                <div class="tab-pane fade" id="order" role="tabpanel" aria-labelledby="order-tab">
+                                	<div class="order__history__list">
+									   <div class="order__history__item">
+									      	<div class="order__history__header d-flex align-items-center justify-content-between">
+									         	<h4 class="order__no">Order: JY-ORDR-20201020184145 <span class="order__date">20 October 2020</span></h4>
+									         	<h5 class="order__total">Total: ₹14161</h5>
+									      	</div>
+										    <div class="order__history__body">
+										        <div class="row">
+										            <div class="col-lg-8">
+										               	<div class="order__details__main d-flex">
+										                  	<div class="order__img" style="background-image: url(img/product-1.jpg)"></div>
+										                  	<div class="order__details__des">
+										                    	<div class="order__details">
+										                        	<h4 class="order__product__name">Otho - Dude Fountain Pen</h4>
+										                        	<h5>Plat-PNB-15000A-41-C</h5>
+											                        <p class="order__product__price">Price: <strong>₹6982</strong></p>
+											                        <p class="order__product__qty">Quantity: <strong>1</strong></p>
+											                        <p class="order__product__size">Size: <strong>25</strong></p>
+											                        <p class="order__product__color">Color: <strong>Blue</strong></p>
+											                        <p class="order__product__nib">Nib Size: <strong>Double Board</strong></p>
+										                     	</div>
+										                     	<div class="order__details__btn">
+										                        	<a href="#" class="btn effect--btn">Buy Back</a>
+										                        	<a href="#" class="btn effect--btn">Review</a>
+										                     	</div>
+										                  	</div>
+										               	</div>
+										            </div>
+										            <div class="col-lg-4">
+										               	<div class="order__shipping__info">
+										                	<h3>Shipping Info</h3>
+										                  	<p>Angle Potter 1 Bluestar St, <br> 396436, Gujrat, India</p>
+										               	</div>
+										            </div>
+										        </div>
+										    </div>
+										    <div class="order__history__body">
+										        <div class="row">
+										            <div class="col-lg-8">
+										               	<div class="order__details__main d-flex">
+										                  	<div class="order__img" style="background-image: url(img/product-2.jpg)"></div>
+										                  	<div class="order__details__des">
+										                    	<div class="order__details">
+										                        	<h4 class="order__product__name">Otho - Dude Fountain Pen</h4>
+										                        	<h5>Plat-PNB-15000A-41-C</h5>
+											                        <p class="order__product__price">Price: <strong>₹6982</strong></p>
+											                        <p class="order__product__qty">Quantity: <strong>1</strong></p>
+											                        <p class="order__product__size">Size: <strong>25</strong></p>
+											                        <p class="order__product__color">Color: <strong>Blue</strong></p>
+											                        <p class="order__product__nib">Nib Size: <strong>Double Board</strong></p>
+										                     	</div>
+										                     	<div class="order__details__btn">
+										                        	<a href="#" class="btn effect--btn">Buy Back</a>
+										                        	<a href="#" class="btn effect--btn">Review</a>
+										                     	</div>
+										                  	</div>
+										               	</div>
+										            </div>
+										            <div class="col-lg-4">
+										               	<div class="order__shipping__info">
+										                	<h3>Shipping Info</h3>
+										                  	<p>Angle Potter 1 Bluestar St, <br> 396436, Gujrat, India</p>
+										               	</div>
+										            </div>
+										        </div>
+										    </div>
+										    <div class="order__history__body">
+										        <div class="row">
+										            <div class="col-lg-8">
+										               	<div class="order__details__main d-flex">
+										                  	<div class="order__img" style="background-image: url(img/product-3.jpg)"></div>
+										                  	<div class="order__details__des">
+										                    	<div class="order__details">
+										                        	<h4 class="order__product__name">Otho - Dude Fountain Pen</h4>
+										                        	<h5>Plat-PNB-15000A-41-C</h5>
+											                        <p class="order__product__price">Price: <strong>₹6982</strong></p>
+											                        <p class="order__product__qty">Quantity: <strong>1</strong></p>
+											                        <p class="order__product__size">Size: <strong>25</strong></p>
+											                        <p class="order__product__color">Color: <strong>Blue</strong></p>
+											                        <p class="order__product__nib">Nib Size: <strong>Double Board</strong></p>
+										                     	</div>
+										                     	<div class="order__details__btn">
+										                        	<a href="#" class="btn effect--btn">Buy Back</a>
+										                        	<a href="#" class="btn effect--btn">Review</a>
+										                     	</div>
+										                  	</div>
+										               	</div>
+										            </div>
+										            <div class="col-lg-4">
+										               	<div class="order__shipping__info">
+										                	<h3>Shipping Info</h3>
+										                  	<p>Angle Potter 1 Bluestar St, <br> 396436, Gujrat, India</p>
+										               	</div>
+										            </div>
+										        </div>
+										    </div>
+									   </div>
+									</div>
+                                </div>
+                                <div class="tab-pane fade" id="order__tracking" role="tabpanel" aria-labelledby="order__tracking-tab">
+                                	<div class="order__tracking">
+									   	<!-- Details-->
+									   	<div class="row mb-3">
+									      	<div class="col-md-4 col-sm-12 mb-2">
+									        	<div class="tracking__detail__box p-4 text-dark text-center"><span class="mr-2">Shipped via:</span>UPS Ground</div>
+									      	</div>
+									      	<div class="col-md-4 col-sm-12 mb-2">
+									        	<div class="tracking__detail__box p-4 text-dark text-center"><span class="mr-2">Status:</span>Quality check</div>
+									      	</div>
+									      	<div class="col-md-4 col-sm-12 mb-2">
+									        	<div class="tracking__detail__box p-4 text-dark text-center"><span class="mr-2">Expected date:</span>June 17, 2019</div>
+									      	</div>
+									   </div>
+									   	<!-- Progress-->
+									   	<div class="steps">
+									      	<div class="steps-header">
+									        	<div class="progress">
+									            	<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+									         	</div>
+									      	</div>
+									      	<div class="steps-body">
+									        	<div class="step step-completed">
+										            	<span class="step-indicator">
+										               	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+										                 	<polyline points="20 6 9 17 4 12"></polyline>
+										               	</svg>
+										            </span>
+										            <span class="step-icon">
+										               	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+										                	<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+										                  	<polyline points="22 4 12 14.01 9 11.01"></polyline>
+										               	</svg>
+										            </span>
+										            Order confirmed
+										        </div>
+										        <div class="step step-completed">
+										            <span class="step-indicator">
+										               	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+										                	<polyline points="20 6 9 17 4 12"></polyline>
+										               	</svg>
+										            </span>
+										            <span class="step-icon">
+										               	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings">
+										                  <circle cx="12" cy="12" r="3"></circle>
+										                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+										               	</svg>
+										            </span>
+										            Processing order
+										        </div>
+										        <div class="step step-active">
+										            <span class="step-icon">
+										               	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award">
+										                  <circle cx="12" cy="8" r="7"></circle>
+										                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+										               	</svg>
+										            </span>
+										            Quality check
+										        </div>
+										        <div class="step">
+										            <span class="step-icon">
+										               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-truck">
+										                  <rect x="1" y="3" width="15" height="13"></rect>
+										                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+										                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+										                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+										               	</svg>
+										            </span>
+										            Product dispatched
+										        </div>
+										        <div class="step">
+										            <span class="step-icon">
+										               	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+										                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+										                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+										               	</svg>
+										            </span>
+										            Product delivered
+										        </div>
+										    </div>
+									   	</div>
+									   	<!-- Footer-->
+									   	<div class="d-sm-flex flex-wrap justify-content-between align-items-center text-center pt-4">
+									    	<div class="custom-control custom-checkbox mt-2 mr-3">
+									        	<input class="custom-control-input" type="checkbox" id="notify-me" checked="">
+									        	<label class="custom-control-label" for="notify-me">Notify me when order is delivered</label>
+									      	</div>
+									      	<a class="btn effect--btn">View Order Details</a>
+									   	</div>
+									</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+	</main>	
+	<footer class="footer--block" data-aos="fade-up">
+		<div class="footer__main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="footer__logo">
+							<a href="#">
+								<img src="img/logo.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Global Distributors</h4>
+						<address>410. 4th floor, Sunrise Mall, Mansi Circle, Ahmedabad Pin Code: 380015</address>
+						<div class="payment__method">
+							<h5>Payment Method</h5>
+							<ul class="d-flex align-content-center">
+								<li>
+									<img src="img/visa.png" alt="VISA">
+								</li>
+								<li>
+									<img src="img/maestro.png" alt="Maestro">
+								</li>
+								<li>
+									<img src="img/mastercard.png" alt="Mastercard">
+								</li>
+								<li>
+									<img src="img/discover.png" alt="Discover">
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Quick links</h4>
+						<ul>
+							<li>
+								<a href="#">Brands</a>
+							</li>
+							<li>
+								<a href="#">Writing</a>
+							</li>
+							<li>
+								<a href="#">Accessories</a>
+							</li>
+							<li>
+								<a href="#">Personalised gifts</a>
+							</li>
+							<li>
+								<a href="#">New and popular</a>
+							</li>
+							<li>
+								<a href="#">Sale</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Help & FAQ</h4>
+						<ul>
+							<li>
+								<a href="#">Privacy Policy</a>
+							</li>
+							<li>
+								<a href="#">Shipping Policy</a>
+							</li>
+							<li>
+								<a href="#">Return Policy</a>
+							</li>
+							<li>
+								<a href="#">Terms of Service</a>
+							</li>
+							<li>
+								<a href="#">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Follow us</h4>
+						<ul class="social__icons d-flex align-content-center">
+							<li>
+								<a href="#">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-youtube-play" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright__main">
+			<div class="container">
+				<div class="copyright">
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="text-center mb-0">© 2021 Writeway Terms & Conditions privacy Notice Website Terms</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="bottom__top__top">
+		<img src="img/pen.svg" class="in__svg" alt="">
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

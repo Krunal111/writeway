@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="">
+	<meta name="keywords" content="">	
+    <meta name="description" content="">
+    <title>Writeway | Home</title>
+	<link rel="shortcut icon" sizes="64x64" href="img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header__top">
+			<div class="container">
+				<div class="row">
+					<div class="logo text-center col-lg-9 col-md-8">
+						<div class="header__logo">
+							<a href="index.html">
+								<img src="img/logo.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+					<div class="header__icons col-lg-3 col-md-4">
+						<div class="header__top__icons d-flex align-content-center justify-content-end">
+							<div class="header__icon header--cart">
+								<div class="cart__icon d-flex align-content-center">
+									<img src="img/shopping-cart.svg" class="in__svg" alt="Cart">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--whistlist">
+								<div class="whistlist__icon d-flex align-content-center">
+									<img src="img/heart.svg" class="in__svg" alt="Whistlist">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--user">
+								<div class="header__search__icon d-flex align-content-center" id="user__dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="img/user.svg" class="in__svg" alt="User">
+									<span>Login</span>
+								</div>
+								<div class="dropdown-menu" aria-labelledby="user__dropdown">
+									<a class="dropdown-item" href="#">Profile</a>
+									<a class="dropdown-item" href="#">Order History</a>
+									<a class="dropdown-item" href="#">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__main">
+			<div class="container">
+				<div class="row">
+					<div class="main__menu col-lg-12">
+						<div class="mobile_menu">
+                            <span class="mobile_menu-icon"></span>
+                        </div>
+						<div class="header__menu">
+							<ul class="nav navbar p-0">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Brands</a>
+								</li>
+								<li class="nav-item">
+							    	<a class="nav-link" href="category.html">Writing</a>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">Accessories</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Personalised gifts</a>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">New and popular</a>
+							  	</li>
+							  	<li class="nav-item has__child">
+									<a class="nav-link" href="#">Sale</a>
+									<a href="javascript:void(0)" class="submenu__expant">
+                                        <img src="img/plus.svg" class="in__svg plus" alt="Plus">
+                                        <img src="img/minus.svg" class="in__svg minus" alt="Minus">
+                                    </a>
+							    	<div class="header__submenu">
+							    		<ul>
+							    			<li class="nav-item">
+										    	<a class="nav-link" href="#">one</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" href="#">two</a>
+										  	</li>
+							    		</ul>
+							    	</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Blog</a>
+							  	</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>  
+    <main>
+		<section class="breadcum--block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcum__main">
+                            <ul class="d-flex align-items-center">
+                                <li><a href="#">Home</a> </li>
+                                <li>&nbsp; > &nbsp;</li>
+                                <li>Checkout</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="checkout--block">
+            <div class="container">
+                <div class="row">
+                    <div class="checkout col-lg-8">
+						<div id="checkout__accordion">
+						   <div class="content checkout__login">
+							  <ul class="nav nav-inline" role="tablist">
+								 <li class="nav-item active"><a class="nav-link active show" data-toggle="tab" href="#checkout-guest-form" role="tab" aria-controls="checkout-guest-form" aria-selected="true" aria-expanded="true">Order as a guest</a></li>
+								 <li class="nav-item"><a class="nav-link" data-link-action="show-login-form" data-toggle="tab" href="#checkout-login-form" role="tab" aria-controls="checkout-login-form" aria-expanded="false">Sign in</a></li>
+							  </ul>
+							  <div class="tab-content">
+								 <div class="tab-pane active" id="checkout-guest-form" role="tabpanel" aria-expanded="true">
+									<form id="guestregister" class="checkout__form" method="post">
+										<div class="row">
+											<div class="form-group col-md-6">   
+											   <label class="form-control-label required">First Name</label>     
+											   <input class="form-control" name="customer_firstname" type="text" value="" required="" placeholder="First Name">
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">Last Name</label>  
+											   <input class="form-control" name="customer_lastname" type="text" value="" placeholder="Last Name">
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">Address</label>
+											   <textarea name="customer_address" id="" rows="2" class="form-control" placeholder="Address" required=""></textarea>
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">Landmark</label>
+											   <input class="form-control" name="customer_permanent_address" type="text" value="" placeholder="Landmark">
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">PinCode</label>
+											   <input class="form-control" name="customer_pincode" type="text" required="" value="" placeholder="PinCode">
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">City</label>
+											   <input class="form-control" name="customer_city" type="text" value="" required="" placeholder="City">
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">Country</label>
+											   <select name="customer_country" class="form-control" id="customer_country">
+												  <option value="231" selected="selected">United States</option>
+											   </select>
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">State</label>
+											   <select name="customer_state" class="form-control" id="customer_state">
+												  <option value="3919">Alabama</option>
+												  <option value="3920">Alaska</option>
+											   </select>
+											</div>
+											<div class="form-group col-md-6">  
+											   <label class="form-control-label required">Email</label>
+											   <input class="form-control" name="customer_email" type="email" required="" value="">
+											</div>
+											<div class="form-group col-md-6">
+											   <label class="form-control-label required">Mobile No.</label>
+											   <input class="form-control" required="" name="customer_phonenumber" pattern="[0-9]{10}" type="text" value="">
+											</div>
+											<div id="payment-confirmation" class="form-group col-md-12 mb-0">
+											   <input type="hidden" name="user_id" value="">
+											   <button type="submit" class="btn effect--btn blue--btn checkout__btn">Review &amp; Confirm</button>
+											</div>
+										 </div>
+									</form>
+								 </div>
+								 <div class="tab-pane" id="checkout-login-form" role="tabpanel" aria-hidden="true" aria-expanded="false">
+									<form action="" class="checkout__form" method="post" >
+										<div class="form-group">
+											<label for="">Enter Email</label>
+											<input class="form-control" required="" name="email" type="text" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<label for="">Enter Password</label>
+											<input type="password" name="password" value="" class="form-control" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<button class="btn effect--btn blue--btn">Login</button>
+										</div>
+										<div class="no_account mb-2">
+											Don't have an account?<a href="#"> Create here</a>
+										</div>
+										<div class="forgot_pass">
+											<a href=#">Forgot your password?</a>
+										</div>
+									</form>
+								 </div>
+							  </div>
+						   </div>
+						</div>
+					 </div>
+                    <div class="col-lg-4">
+                        <div class="order__summary__main">
+                            <h4 data-aos="fade-up">Order Summary</h4>
+                            <div class="order__summary" data-aos="fade-up">
+                                <p class="subtotal">Subtotal <span class="price-values">₹66,082</span></p>
+                                <p class="discount">You Saved <span class="price-values">- ₹3,363</span></p>
+								<p class="shipping__charge">Delivery Charge (Standard) <span class="price-values"><span class="free">FREE</span></span></p>
+                                <p class="price--breakup--final mb-0">TOTAL COST <span class="price-values">₹62,719</span></p>
+                            </div>
+                            <div class="checkout__button">
+                                <a href="review-confirm.html" class="btn effect--btn"><i class="fa fa-lock" aria-hidden="true"></i> Checkout Securely</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+	<footer class="footer--block" data-aos="fade-up">
+		<div class="footer__main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="footer__logo">
+							<a href="#">
+								<img src="img/logo.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Global Distributors</h4>
+						<address>410. 4th floor, Sunrise Mall, Mansi Circle, Ahmedabad Pin Code: 380015</address>
+						<div class="payment__method">
+							<h5>Payment Method</h5>
+							<ul class="d-flex align-content-center">
+								<li>
+									<img src="img/visa.png" alt="VISA">
+								</li>
+								<li>
+									<img src="img/maestro.png" alt="Maestro">
+								</li>
+								<li>
+									<img src="img/mastercard.png" alt="Mastercard">
+								</li>
+								<li>
+									<img src="img/discover.png" alt="Discover">
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Quick links</h4>
+						<ul>
+							<li>
+								<a href="#">Brands</a>
+							</li>
+							<li>
+								<a href="#">Writing</a>
+							</li>
+							<li>
+								<a href="#">Accessories</a>
+							</li>
+							<li>
+								<a href="#">Personalised gifts</a>
+							</li>
+							<li>
+								<a href="#">New and popular</a>
+							</li>
+							<li>
+								<a href="#">Sale</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Help & FAQ</h4>
+						<ul>
+							<li>
+								<a href="#">Privacy Policy</a>
+							</li>
+							<li>
+								<a href="#">Shipping Policy</a>
+							</li>
+							<li>
+								<a href="#">Return Policy</a>
+							</li>
+							<li>
+								<a href="#">Terms of Service</a>
+							</li>
+							<li>
+								<a href="#">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Follow us</h4>
+						<ul class="social__icons d-flex align-content-center">
+							<li>
+								<a href="#">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-youtube-play" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright__main">
+			<div class="container">
+				<div class="copyright">
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="text-center mb-0">© 2021 Writeway Terms & Conditions privacy Notice Website Terms</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="bottom__top__top">
+		<img src="img/pen.svg" class="in__svg" alt="">
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="">
+	<meta name="keywords" content="">	
+    <meta name="description" content="">
+    <title>Writeway | Home</title>
+	<link rel="shortcut icon" sizes="64x64" href="img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header__top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 d-none d-lg-none d-xl-block">
+						<div class="d-flex align-content-center">
+							<ul class="social__icons d-flex align-content-center">
+								<li>
+									<a href="#">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-youtube-play" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+							<ul class="contact__link d-flex align-content-center ml-4">
+								<li>
+									<a title="Call us" href="tel:+91 7894561230"><i class="fa fa-phone" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a title="Mail" href="mailto:contact@writeway.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="logo col-lg-5 col-md-4">
+						<div class="header__logo">
+							<a href="index.html">
+								<img class="header-logo" src="img/logo.png" alt="Writeway">
+								<img class="header__fixed-logo" src="img/logo-icon.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+					<div class="header__icons col-lg-6 col-md-6">
+						<div class="header__top__icons d-flex align-content-center justify-content-end">
+							<div class="header__icon header--search">
+								<div class="header__search__icon">
+									<img src="img/search.svg" class="in__svg" alt="search">
+								</div>
+								<div class="header__search" style="display: none;">
+		                            <form action="" method="post">
+		                                <input class="form-control" type="text" id="header-search" name="search" value="" placeholder="Search" aria-label="Search">
+		                                <button class="search__btn" type="submit">
+		                                	<img src="img/search.svg" alt="search">
+		                                </button>
+		                            </form>
+		                        </div>
+							</div>
+							<div class="header__icon header--cart">
+								<div class="cart__icon d-flex align-content-center">
+									<img src="img/shopping-cart.svg" class="in__svg" alt="Cart">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--whistlist">
+								<div class="whistlist__icon d-flex align-content-center">
+									<img src="img/heart.svg" class="in__svg" alt="Whistlist">
+									<span class="cart__count">(2)</span>
+								</div>
+							</div>
+							<div class="header__icon header--user d-none d-lg-none d-xl-block">
+								<div class="header__search__icon d-flex align-content-center" id="user__dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="img/user.svg" class="in__svg" alt="User">
+									<span>Testing UserName</span>
+								</div>
+								<div class="dropdown-menu" aria-labelledby="user__dropdown">
+									<a class="dropdown-item" href="#">Profile</a>
+									<a class="dropdown-item" href="#">Order History</a>
+									<a class="dropdown-item" href="#">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__main">
+			<div class="container">
+				<div class="row">
+					<div class="main__menu col-lg-12">
+						<div class="mobile_menu">
+                            <span class="mobile_menu-icon"></span>
+                        </div>
+						<div class="header__menu">
+							<div class="header__icon header--user d-xl-none mb-3">
+								<div class="header__search__icon d-flex align-content-center" id="user__dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="img/user.svg" class="in__svg" alt="User">
+									<span>Login</span>
+								</div>
+								<div class="dropdown-menu" aria-labelledby="user__dropdown">
+									<a class="dropdown-item" href="#">Profile</a>
+									<a class="dropdown-item" href="#">Order History</a>
+									<a class="dropdown-item" href="#">Logout</a>
+								</div>
+							</div>
+							<ul class="nav navbar p-0">
+								<li class="nav-item has__child mega__menu">
+									<a class="nav-link" href="#">Brands <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<a href="javascript:void(0)" class="submenu__expant">
+                                        <img src="img/plus.svg" class="in__svg plus" alt="Plus">
+                                        <img src="img/minus.svg" class="in__svg minus" alt="Minus">
+                                    </a>
+							    	<div class="header__submenu">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-9">
+													<div class="row">
+														<div class="col-md-3 mega__menu__col">
+															<h5>International</h5>
+															<ul>
+																<li class="nav-item">
+																	<a class="nav-link" href="#roller-ball-pens">ROLLER BALL PENS </a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#pencil">PENCIL</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#fountain-pens">FOUNTAIN PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#ball-pens">BALL PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#gel-pens">GEL PENS</a>
+																</li>
+															</ul>
+														</div>
+														<div class="col-md-3 mega__menu__col">
+															<h5>Local</h5>
+															<ul>
+																<li class="nav-item">
+																	<a class="nav-link" href="#roller-ball-pens">ROLLER BALL PENS </a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#pencil">PENCIL</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#fountain-pens">FOUNTAIN PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#ball-pens">BALL PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#gel-pens">GEL PENS</a>
+																</li>
+															</ul>
+														</div>
+														<div class="col-md-3 mega__menu__col">
+															<h5></h5>
+															<ul>
+																<li class="nav-item">
+																	<a class="nav-link" href="#roller-ball-pens">ROLLER BALL PENS </a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#pencil">PENCIL</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#fountain-pens">FOUNTAIN PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#ball-pens">BALL PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#gel-pens">GEL PENS</a>
+																</li>
+															</ul>
+														</div>
+														<div class="col-md-3 mega__menu__col">
+															<h5></h5>
+															<ul>
+																<li class="nav-item">
+																	<a class="nav-link" href="#roller-ball-pens">ROLLER BALL PENS </a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#pencil">PENCIL</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#fountain-pens">FOUNTAIN PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#ball-pens">BALL PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#gel-pens">GEL PENS</a>
+																</li>
+															</ul>
+														</div>
+														<div class="col-md-3 mega__menu__col">
+															<h5>New</h5>
+															<ul>
+																<li class="nav-item">
+																	<a class="nav-link" href="#roller-ball-pens">ROLLER BALL PENS </a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#pencil">PENCIL</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#fountain-pens">FOUNTAIN PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#ball-pens">BALL PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#gel-pens">GEL PENS</a>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3">
+													<div class="mega__menu--banner">
+														<img src="img/menu-banner-1.jpg" alt="Menu banner">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="nav-item has__child mega__menu">
+							    	<a class="nav-link" href="category.html">Writing <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<a href="javascript:void(0)" class="submenu__expant">
+                                        <img src="img/plus.svg" class="in__svg plus" alt="Plus">
+                                        <img src="img/minus.svg" class="in__svg minus" alt="Minus">
+                                    </a>
+							    	<div class="header__submenu">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-9">
+													<div class="row">
+														<div class="col-md-3 mega__menu__col">
+															<h5>International</h5>
+															<ul>
+																<li class="nav-item">
+																	<a class="nav-link" href="#roller-ball-pens">ROLLER BALL PENS </a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#pencil">PENCIL</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#fountain-pens">FOUNTAIN PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#ball-pens">BALL PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#gel-pens">GEL PENS</a>
+																</li>
+															</ul>
+														</div>
+														<div class="col-md-3 mega__menu__col">
+															<h5>Local</h5>
+															<ul>
+																<li class="nav-item">
+																	<a class="nav-link" href="#roller-ball-pens">ROLLER BALL PENS </a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#pencil">PENCIL</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#fountain-pens">FOUNTAIN PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#ball-pens">BALL PENS</a>
+																</li>
+																<li class="nav-item">
+																	<a class="nav-link" href="#gel-pens">GEL PENS</a>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3">
+													<div class="mega__menu--banner">
+														<img src="img/menu-banner-1.jpg" alt="Menu banner">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">Accessories</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Personalised gifts</a>
+							  	</li>
+							  	<li class="nav-item">
+									<a class="nav-link" href="#">New and popular</a>
+							  	</li>
+							  	<li class="nav-item has__child position-relative">
+									<a class="nav-link" href="#">Sale <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<a href="javascript:void(0)" class="submenu__expant">
+                                        <img src="img/plus.svg" class="in__svg plus" alt="Plus">
+                                        <img src="img/minus.svg" class="in__svg minus" alt="Minus">
+                                    </a>
+							    	<div class="header__submenu">
+							    		<ul>
+							    			<li class="nav-item">
+										    	<a class="nav-link" href="#">one</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" href="#">two</a>
+										  	</li>
+							    		</ul>
+							    	</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Blog</a>
+							  	</li>
+							</ul>
+							<div class="social__icons d-xl-none mt-3">
+								<ul class="d-flex align-content-center">
+									<li>
+										<a href="#">
+											<i class="fa fa-facebook" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-twitter" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-instagram" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-linkedin" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-youtube-play" aria-hidden="true"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>  	
+	<main>
+		<section class="banner--block">
+			<div class="home__slider swiper-container">
+				<div class="swiper-wrapper">
+					<div class="slider__item swiper-slide">
+						<div class="banner__img for__desktop d-none d-md-block d-lg-block">
+							<img src="img/desktop-banner-1.jpg" alt="Banner">
+						</div>
+						<div class="banner__img for__mobile d-md-none d-lg-none d-sm-block">
+							<img src="img/mobile-banner-1.jpg" alt="Banner">
+						</div>
+						<!-- <div class="container p-0">
+							<div class="banner__text">
+								<p>SEE WHAT'S NEW</p>
+								<h3>amazing offer with new style</h3>
+								<a href="#" class="btn white--btn effect--btn">Shop Now</a>
+							</div>
+						</div> -->
+					</div>
+					<div class="slider__item swiper-slide">
+						<div class="banner__img for__desktop d-none d-md-block d-lg-block">
+							<img src="img/desktop-banner-2.jpg" alt="Banner">
+						</div>
+						<div class="banner__img for__mobile d-md-none d-lg-none d-sm-block">
+							<img src="img/mobile-banner-2.jpg" alt="Banner">
+						</div>
+						<!-- <div class="container p-0">
+							<div class="banner__text">
+								<p>SEE WHAT'S NEW</p>
+								<h3>amazing offer with new style</h3>
+								<a href="#" class="btn white--btn effect--btn">Shop Now</a>
+							</div>
+						</div> -->
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section class="discover--block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Discover Easy Writing With Pens That Glide Across The Page</h2>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="contact__form">
+							<form action="#" method="POST" class="contact-form">
+								<div class="row">
+									<div class="form-group col-lg-4 col-md-6" data-aos="fade-up">
+										<input type="text" name="name" value="" required="" class="form-control" placeholder="Enter Your Name">
+									</div>
+									<div class="form-group col-lg-4 col-md-6" data-aos="fade-up">
+										<input type="text" name="email" value="" required="" class="form-control" placeholder="Enter Your Emai ID">
+									</div>
+									<div class="form-group col-lg-4 col-md-6" data-aos="fade-up">
+										<input type="text" name="mobile" required="" value="" class="form-control" placeholder="Enter Your Mobile">
+									</div>
+									<div class="form-group col-lg-4 col-md-6" data-aos="fade-up">
+										<div class="custom__select">
+											<select name="city" id="" required="" class="form-control">
+												<option value="City">City</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-lg-4 col-md-6" data-aos="fade-up">
+										<input type="text" name="post_code" required="" value="" class="form-control" placeholder="Enter Your Post Code">
+									</div>
+									<div class="form-group col-lg-4 col-md-6" data-aos="fade-up">
+										<button type="submit" value="Send Message" class="btn blue--btn effect--btn" data-toggle="modal" data-target="#thank-you">Sign up for exclusive offers!</button>
+									</div>
+								</div>
+							</form>
+						 </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="category--block mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>shop by category</h2>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="category__item category-1" data-aos="fade-up">
+							<div class="category__img">
+								<img src="img/category-1.jpg" alt="Category">
+							</div>
+							<div class="category__btn">
+								<a href="#" class="btn effect--btn">Fountain Pens</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 cat-2">
+						<div class="row">
+							<div class="col-lg-12 col-md-12">
+								<div class="category__item category-2" data-aos="fade-up">
+									<div class="category__img">
+										<img src="img/category-2.jpg" alt="Category">
+									</div>
+									<div class="category__btn">
+										<a href="#" class="btn effect--btn">rollerball pen</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="category__item category-3" data-aos="fade-up">
+									<div class="category__img">
+										<img src="img/category-3.jpg" alt="Category">
+									</div>
+									<div class="category__btn">
+										<a href="#" class="btn effect--btn">pencil</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="category__item category-4" data-aos="fade-up">
+									<div class="category__img">
+										<img src="img/category-4.jpg" alt="Category">
+									</div>
+									<div class="category__btn">
+										<a href="#" class="btn effect--btn">accessories</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="products--block mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Exclusive brands</h2>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="our__products">
+							<div class="brand__catergory nav nav-tabs justify-content-center" role="tablist" data-aos="fade-up">
+								<a class="nav-item nav-link active" data-toggle="tab" href="#brand-1" role="tab"  aria-selected="true">Fountain pen</a>
+								<a class="nav-item nav-link"data-toggle="tab" href="#brand-2" role="tab" aria-selected="false">Accessories</a>
+								<a class="nav-item nav-link" data-toggle="tab" href="#brand-3" role="tab" aria-selected="false">Pencils</a>
+								<a class="nav-item nav-link" data-toggle="tab" href="#brand-4" role="tab" aria-selected="false">Roller Ball Pen</a>
+							</div>
+							<div class="tab-content products__list">
+								<div class="tab-pane fade show active" id="brand-1" role="tabpanel">
+									<div class="product__slider swiper-container">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img class="img-fluid" src="img/product-1.jpg" alt="Product">
+															<img class="image__h" src="img/product-2.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img class="img-fluid" src="img/product-2.jpg" alt="Product">
+															<img class="image__h" src="img/product-3.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img class="img-fluid" src="img/product-3.jpg" alt="Product">
+															<img class="image__h" src="img/product-4.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img class="img-fluid" src="img/product-4.jpg" alt="Product">
+															<img class="image__h" src="img/product-5.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img class="img-fluid" src="img/product-5.jpg" alt="Product">
+															<img class="image__h" src="img/product-2.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-button swiper-button-next"></div>
+      								<div class="swiper-button swiper-button-prev"></div>
+								</div>
+								<div class="tab-pane fade" id="brand-2" role="tabpanel">
+									<div class="product__slider swiper-container">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-1.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-2.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-3.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-4.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-1.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-button swiper-button-next"></div>
+      								<div class="swiper-button swiper-button-prev"></div>
+								</div>
+								<div class="tab-pane fade" id="brand-3" role="tabpanel">
+									<div class="product__slider swiper-container">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-1.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-2.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-3.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-4.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-1.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-button swiper-button-next"></div>
+      								<div class="swiper-button swiper-button-prev"></div>
+								</div>
+								<div class="tab-pane fade" id="brand-4" role="tabpanel">
+									<div class="product__slider swiper-container">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-1.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-2.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-3.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-4.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="product__item" data-aos="fade-up">
+													<div class="product__img">
+														<a href="#">
+															<img src="img/product-1.jpg" alt="Product">
+														</a>
+													</div>
+													<div class="product__details">
+														<div class="product__whishlist">
+															<img src="img/heart.svg" alt="Whishlist">
+														</div>
+														<h3 class="product__name"><a href="#">Otho - Dude Fountain Pen</a></h3>
+														<p class="product__price"><s>Rs. 2000</s> Rs. 1895</p>
+														<a href="#" class="btn effect--btn">Add to cart</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-button swiper-button-next"></div>
+      							<div class="swiper-button swiper-button-prev"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="favorite--block mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Our Favorite Picks</h2>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="favorite__slider swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="favorite__pick favorite__video">
+								<div class="favorite__img">
+									<img src="img/fav-1.jpg" alt="Favorite">
+								</div>
+								<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+									<img src="img/play.svg" class="in__svg" alt="Play">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="favorite__pick">
+								<div class="favorite__img">
+									<img src="img/fav-2.jpg" alt="Favorite">
+								</div>
+								<div class="favorite__des">
+									<h3><a href="#">Otho - Celsus Fountain Pen</a></h3>
+									<p>Rs. 2,995.00</p>
+									<a href="#">View in details <img src="img/double_right.svg" class="in__svg" alt="Arrow"></a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="favorite__pick">
+								<div class="favorite__img">
+									<img src="img/fav-3.jpg" alt="Favorite">
+								</div>
+								<div class="favorite__des">
+									<h3><a href="#">Otho - Celsus Fountain Pen</a></h3>
+									<p>Rs. 2,995.00</p>
+									<a href="#">View in details <img src="img/double_right.svg" class="in__svg" alt="Arrow"></a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="favorite__pick">
+								<div class="favorite__img">
+									<img src="img/fav-3.jpg" alt="Favorite">
+								</div>
+								<div class="favorite__des">
+									<h3><a href="#">Otho - Celsus Fountain Pen</a></h3>
+									<p>Rs. 2,995.00</p>
+									<a href="#">View in details <img src="img/double_right.svg" class="in__svg" alt="Arrow"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="events--block mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Our Events</h2>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="event__item" data-aos="fade-up">
+							<div class="event__img">
+								<a href="#">
+									<img src="img/event-1.jpg" alt="Event">
+								</a>
+							</div>
+							<div class="event__des">
+								<h4 class="event__date">22 <span>May</span></h4>
+								<p>A Beginner’s Guide to Fountain Pen Inks: What Inks to Buy? What Inks to Avoid? To Clean or Not to Clean? The Ten Rules.</p>
+								<a href="#">View more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="event__item" data-aos="fade-up">
+							<div class="event__img">
+								<a href="#">
+									<img src="img/event-2.jpg" alt="Event">
+								</a>
+							</div>
+							<div class="event__des">
+								<h4 class="event__date">22 <span>May</span></h4>
+								<p>A Beginner’s Guide to Fountain Pen Inks: What Inks to Buy? What Inks to Avoid? To Clean or Not to Clean? The Ten Rules.</p>
+								<a href="#">View more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="event__item" data-aos="fade-up">
+							<div class="event__img">
+								<a href="#">
+									<img src="img/event-3.jpg" alt="Event">
+								</a>
+							</div>
+							<div class="event__des">
+								<h4 class="event__date">22 <span>May</span></h4>
+								<p>A Beginner’s Guide to Fountain Pen Inks: What Inks to Buy? What Inks to Avoid? To Clean or Not to Clean? The Ten Rules.</p>
+								<a href="#">View more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 mt-5 text-center" data-aos="fade-up">
+						<a class="btn effect--btn" href="#">View all</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonial--block mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Client Say About us</h2>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="testimonial__slider swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="testimonial__item text-center" data-aos="fade-up">
+										<div class="testimonial__img">
+											<img src="img/user-1.jpg" alt="User">
+											<div class="testimonial__shape">
+												<img src="img/dot-shape.svg" class="in__svg" alt="">
+											</div>
+											<div class="qoute__icon">
+												<img src="img/quote.svg" class="in__svg" alt="Quote">
+											</div>
+										</div>
+										<div class="testimonial__msg">
+											<h4>akash sahani</h4>
+											<p>We have no regrets! I would like to personally thank you for your outstanding product. Writeway is worth much more than I paid</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testimonial__item video--msg text-center" data-aos="fade-up">
+										<div class="testimonial__img">
+											<img src="img/user-2.jpg" alt="User">
+											<div class="play__icon">
+												<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+													<img src="img/play.svg" class="in__svg" alt="Play">
+												</a>
+											</div>
+										</div>
+										<div class="testimonial__msg">
+											<h4>ravinder singh</h4>
+											<p>We have no regrets! I would like to personally thank you for your outstanding product. Writeway is worth much more than I paid</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="testimonial__item text-center" data-aos="fade-up">
+										<div class="testimonial__img">
+											<img src="img/user-1.jpg" alt="User">
+											<div class="testimonial__shape">
+												<img src="img/dot-shape.svg" class="in__svg" alt="">
+											</div>
+											<div class="qoute__icon">
+												<img src="img/quote.svg" class="in__svg" alt="Quote">
+											</div>
+										</div>
+										<div class="testimonial__msg">
+											<h4>akash sahani</h4>
+											<p>We have no regrets! I would like to personally thank you for your outstanding product. Writeway is worth much more than I paid</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="blog--block mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Latest news and updates</h2>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="blog__slider swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="blog__item" data-aos="fade-up">
+										<div class="blog__img">
+											<a href="#">
+												<img src="img/news-1.jpg" alt="News">
+											</a>
+										</div>
+										<div class="blog__post__by">
+											<h5>Tushar Vaghela</h5>
+											<h5>Mar 16, 2021</h5>
+										</div>
+										<div class="blog__des">
+											<p>A Beginner’s Guide to Fountain Pen Inks: What Inks to Buy? What Inks to Avoid? To Clean or Not to Clean? The Ten Rules.</p>
+											<a href="#">View more</a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="blog__item" data-aos="fade-up">
+										<div class="blog__img">
+											<a href="#">
+												<img src="img/news-2.jpg" alt="News">
+											</a>
+										</div>
+										<div class="blog__post__by">
+											<h5>Tushar Vaghela</h5>
+											<h5>Mar 16, 2021</h5>
+										</div>
+										<div class="blog__des">
+											<p>A Beginner’s Guide to Fountain Pen Inks: What Inks to Buy? What Inks to Avoid? To Clean or Not to Clean? The Ten Rules.</p>
+											<a href="#">View more</a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="blog__item" data-aos="fade-up">
+										<div class="blog__img">
+											<a href="#">
+												<img src="img/news-3.jpg" alt="News">
+											</a>
+										</div>
+										<div class="blog__post__by">
+											<h5>Tushar Vaghela</h5>
+											<h5>Mar 16, 2021</h5>
+										</div>
+										<div class="blog__des">
+											<p>A Beginner’s Guide to Fountain Pen Inks: What Inks to Buy? What Inks to Avoid? To Clean or Not to Clean? The Ten Rules.</p>
+											<a href="#">View more</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="newsletter--block mt-5" data-aos="fade-up">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="main__title" data-aos="fade-up">
+							<h2>Subscribe to our newsletter</h2>
+							<p>Get the latest updates on new products and upcoming sales</p>
+							<img src="img/title_line.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center" data-aos="fade-up">
+						<form action="#" method="post">
+							<div class="newsletter__main d-flex align-content-center justify-content-center">
+								<input type="text" name="email" value="" required="" class="form-control" placeholder="Enter your email address">
+								<button type="submit" value="Send Message" class="btn blue--btn effect--btn">Subscribe</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="clients--block mt-5">
+			<div class="clients__slider swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="client__item">
+							<a href="#">
+								<img src="img/logo-1.png" alt="Client">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="client__item">
+							<a href="#">
+								<img src="img/logo-2.png" alt="Client">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="client__item">
+							<a href="#">
+								<img src="img/logo-3.png" alt="Client">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="client__item">
+							<a href="#">
+								<img src="img/logo-4.png" alt="Client">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="client__item">
+							<a href="#">
+								<img src="img/logo-5.png" alt="Client">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>	
+	<footer class="footer--block" data-aos="fade-up">
+		<div class="footer__main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="footer__logo">
+							<a href="#">
+								<img src="img/logo.png" alt="Writeway">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Global Distributors</h4>
+						<address>410. 4th floor, Sunrise Mall, Mansi Circle, Ahmedabad Pin Code: 380015</address>
+						<div class="payment__method">
+							<h5>Payment Method</h5>
+							<ul class="d-flex align-content-center">
+								<li>
+									<img src="img/visa.png" alt="VISA">
+								</li>
+								<li>
+									<img src="img/maestro.png" alt="Maestro">
+								</li>
+								<li>
+									<img src="img/mastercard.png" alt="Mastercard">
+								</li>
+								<li>
+									<img src="img/discover.png" alt="Discover">
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Quick links</h4>
+						<ul>
+							<li>
+								<a href="#">Brands</a>
+							</li>
+							<li>
+								<a href="#">Writing</a>
+							</li>
+							<li>
+								<a href="#">Accessories</a>
+							</li>
+							<li>
+								<a href="#">Personalised gifts</a>
+							</li>
+							<li>
+								<a href="#">New and popular</a>
+							</li>
+							<li>
+								<a href="#">Sale</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Help & FAQ</h4>
+						<ul>
+							<li>
+								<a href="#">Privacy Policy</a>
+							</li>
+							<li>
+								<a href="#">Shipping Policy</a>
+							</li>
+							<li>
+								<a href="#">Return Policy</a>
+							</li>
+							<li>
+								<a href="#">Terms of Service</a>
+							</li>
+							<li>
+								<a href="#">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column col-lg-3 col-md-4 col-sm-6">
+						<h4>Follow us</h4>
+						<ul class="social__icons d-flex align-content-center">
+							<li>
+								<a href="#">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-youtube-play" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright__main">
+			<div class="container">
+				<div class="copyright">
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="text-center mb-0">© 2021 Writeway Terms & Conditions privacy Notice Website Terms</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="bottom__top__top">
+		<img src="img/pen.svg" class="in__svg" alt="">
+	</div>
+  
+	<!-- Thank You Modal -->
+	<div class="thank__you-modal modal fade" id="thank-you" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content p-5">
+				<div class="modal-header border-0 p-0">
+					<button type="button" class="close p-0" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center p-0">
+					<img src="img/logo.png" alt="Writeway">
+					<h5 class="mb-0">Thank You For Shopping With Us!</h5>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
